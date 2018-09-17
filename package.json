@@ -1,0 +1,18 @@
+{
+    "name": "lib-findlib",
+    "version": "9.9.9",
+    "esy": {
+        "build": [
+          ["jbuilder",  "build", "-j", "4",  "-p",  "mccs"]
+        ],
+        "buildsInSource": "_build"
+    },
+    "peerDependencies": {
+        "ocaml": "~4.6.0"
+    },
+    "dependencies": {
+        "ocaml": "~4.6.0",
+        "@opam/dune": "1.1.1",
+        "@opam/cudf": "*"
+    }
+}
